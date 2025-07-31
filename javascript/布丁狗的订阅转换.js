@@ -7,7 +7,7 @@ config["proxy-groups"] = [
     "exclude-filter": "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
     name: "PROXY",
     type: "select",
-    proxies: ["AUTO", "HK AUTO", "SG AUTO", "JP AUTO", "US AUTO"],
+    proxies: ["DIRECT", "AUTO", "HK AUTO", "SG AUTO", "JP AUTO", "US AUTO"],
   },
   {
     icon: "https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Urltest.png",
@@ -21,19 +21,19 @@ config["proxy-groups"] = [
     icon: "https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/OpenAI.png",
     name: "AIGC",
     type: "select",
-    proxies: ["SG AUTO", "JP AUTO", "US AUTO", "AUTO"], // Added AUTO here
+    proxies: ["DIRECT", "AUTO", "SG AUTO", "JP AUTO", "US AUTO"],
   },
   {
     icon: "https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Telegram.png",
     name: "Telegram",
     type: "select",
-    proxies: ["HK AUTO", "SG AUTO", "JP AUTO", "US AUTO", "AUTO"], // Added AUTO here
+    proxies: ["DIRECT", "AUTO", "HK AUTO", "SG AUTO", "JP AUTO", "US AUTO"],
   },
   {
     icon: "https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Google.png",
     name: "Google",
     type: "select",
-    proxies: ["HK AUTO", "SG AUTO", "JP AUTO", "US AUTO", "AUTO"], // Added AUTO here
+    proxies: ["DIRECT", "AUTO", "HK AUTO", "SG AUTO", "JP AUTO", "US AUTO"],
   },
   {
     icon: "https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/HK.png",
@@ -75,9 +75,9 @@ config["proxy-groups"] = [
     icon: "https://testingcf.jsdelivr.net/gh/Orz-3/mini@master/Color/Global.png",
     "include-all": true,
     "exclude-filter": "(?i)GB|Traffic|Expire|Premium|频道|订阅|ISP|流量|到期|重置",
-    proxies: ["AUTO", "HK AUTO", "SG AUTO", "JP AUTO", "US AUTO"],
     name: "GLOBAL",
     type: "select",
+    proxies: ["DIRECT", "AUTO", "HK AUTO", "SG AUTO", "JP AUTO", "US AUTO"],
   },
   {
     name: "漏网之鱼",
@@ -93,7 +93,7 @@ if (!config['rule-providers']) {
 
 config["rule-providers"] = Object.assign(config["rule-providers"], {
   private: {
-    url: "https://github.com/1287081432/override-hub/blob/main/yaml/private.yaml",
+    url: "https://gh.llkk.cc/https://github.com/1287081432/override-hub/blob/main/yaml/private.yaml",
     path: "./ruleset/private.yaml",
     behavior: "domain",
     interval: 86400,
@@ -218,9 +218,6 @@ config["rules"] = [
   "RULE-SET,telegram_ip,Telegram",
   "RULE-SET,google_domain,Google",
   "RULE-SET,google_ip,Google",
-  "RULE-SET,geolocation-!cn,PROXY",
-  "RULE-SET,cn_domain,DIRECT",
-  "RULE-SET,cn_ip,DIRECT",
   "MATCH,漏网之鱼"
 ];
 
