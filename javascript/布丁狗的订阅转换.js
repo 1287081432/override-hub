@@ -193,6 +193,7 @@ config["rules"] = [
   "RULE-SET,telegram_ip,Telegram",
   "RULE-SET,google_domain,Google",
   "RULE-SET,google_ip,Google",
+  "RULE-SET,geolocation-!cn,PROXY",
   "MATCH,漏网之鱼"
 ];
 
