@@ -156,14 +156,6 @@ config["rule-providers"] = Object.assign(config["rule-providers"], {
     format: "yaml",
     type: "http",
   },
-  bing: {
-    url: "https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bing/Bing.yaml",
-    path: "./ruleset/bing.yaml",
-    behavior: "classical",
-    interval: 86400,
-    format: "yaml",
-    type: "http",
-  },
   copilot: {
     url: "https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Copilot/Copilot.yaml",
     path: "./ruleset/copilot.yaml",
@@ -208,7 +200,6 @@ config["rule-providers"] = Object.assign(config["rule-providers"], {
 
 config["rules"] = [
   "RULE-SET,private,DIRECT",
-  "RULE-SET,bing,AIGC",
   "RULE-SET,copilot,AIGC",
   "RULE-SET,bard,AIGC",
   "RULE-SET,openai,AIGC",
