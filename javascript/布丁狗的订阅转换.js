@@ -93,7 +93,7 @@ if (!config['rule-providers']) {
 
 config["rule-providers"] = Object.assign(config["rule-providers"], {
   private: {
-    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.yaml",
+    url: "https://github.com/1287081432/override-hub/blob/main/yaml/private.yaml",
     path: "./ruleset/private.yaml",
     behavior: "domain",
     interval: 86400,
