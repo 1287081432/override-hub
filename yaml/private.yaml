@@ -22,10 +22,8 @@ payload:
     - DOMAIN-SUFFIX,bing.com.cn
     - DOMAIN-SUFFIX,zcrou.v6.army
     - DOMAIN-SUFFIX,zcdes.v6.army
-    - DOMAIN-SUFFIX,bing.com
-    - DOMAIN-SUFFIX,bing.com.cn
-    - DOMAIN-SUFFIX,zcrou.v6.army
-    - DOMAIN-SUFFIX,zcdes.v6.army
+    - +.microsoft.com
+    - +.msedge.net
     - instant.arubanetworks.com
     - setmeup.arubanetworks.com
     - asusrouter.com
