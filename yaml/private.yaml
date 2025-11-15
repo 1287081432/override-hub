@@ -18,7 +18,8 @@ payload:
     - fc00::/7
     - fe80::/10
     - ff00::/8
-    - +.bing.com
+    - rewards.bing.com
+    - login.microsoftonline.com
     - +.bing.com.cn
     - +.zcrou.v6.army
     - +.zcdes.v6.army
