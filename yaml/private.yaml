@@ -20,6 +20,7 @@ payload:
     - ff00::/8
     - rewards.bing.com
     - login.microsoftonline.com
+    - +.microsofttranslator.com
     - +.bing.com.cn
     - +.zcrou.v6.army
     - +.zcdes.v6.army
