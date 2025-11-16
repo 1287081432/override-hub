@@ -831,4 +831,4 @@ payload:
     - +.account.microsoft.com
     - +.data.microsoft.com
     - +.graph.microsoft.com
-    - +.mp.microsoft.com:443
+    - +.mp.microsoft.com
