@@ -832,3 +832,5 @@ payload:
     - +.data.microsoft.com
     - +.graph.microsoft.com
     - +.mp.microsoft.com
+    - +.dds.microsoft.com
+    - +.go.microsoft.com
