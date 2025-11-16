@@ -830,3 +830,4 @@ payload:
     - +.spoprod-a.akamaihd.net
     - +.account.microsoft.com
     - +.data.microsoft.com
+    - +.graph.microsoft.com
