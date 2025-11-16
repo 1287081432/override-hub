@@ -828,3 +828,5 @@ payload:
     - +.sharepoint.com
     - +.sharepointonline.com
     - +.spoprod-a.akamaihd.net
+    - +.account.microsoft.com
+    - +.data.microsoft.com
