@@ -72,7 +72,8 @@ payload:
   - DOMAIN-SUFFIX,test.steampowered.com
 
   # ======== Bing 相关 ========
-  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN,bing.com
+  - DOMAIN,cn.bing.com
   - DOMAIN-SUFFIX,bing.com.cn
   - DOMAIN-SUFFIX,bing.net
   - DOMAIN-SUFFIX,bingads.com
