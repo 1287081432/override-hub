@@ -108,11 +108,11 @@ payload:
 
   # ======== Microsoft Edge ========
   - DOMAIN-SUFFIX,edge.activity.windows.com
-  - DOMAIN-SUFFIX,edge.microsoft.com
+  #- DOMAIN-SUFFIX,edge.microsoft.com
   - DOMAIN-SUFFIX,iecvlist.microsoft.com
   - DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
   - DOMAIN-SUFFIX,msedge.net
-  - DOMAIN-SUFFIX,microsoftedge.com
+  #- DOMAIN-SUFFIX,microsoftedge.com
   - DOMAIN-SUFFIX,microsoftedgeinsider.com
   - DOMAIN-SUFFIX,a-msedge.net
   - DOMAIN-SUFFIX,c-msedge.net
