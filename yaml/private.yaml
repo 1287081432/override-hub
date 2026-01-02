@@ -120,8 +120,8 @@ payload:
   - DOMAIN-SUFFIX,s-msedge.net
 
   # ======== Microsoft 核心域名 ========
-  - DOMAIN-SUFFIX,microsoft.com
-  - DOMAIN-SUFFIX,microsoft.net
+  - DOMAIN,microsoft.com
+  - DOMAIN,microsoft.net
   - DOMAIN-SUFFIX,microsoft.io
   - DOMAIN-SUFFIX,microsoft.eu
   - DOMAIN-SUFFIX,microsoft.tv
