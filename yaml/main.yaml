@@ -1,6 +1,6 @@
 # 添加直连规则示例
 payload:
     - xn--wtq35pfyd55o.co
-    - api.themoviedb.org
-    - image.tmdb.org
-    - fanart.tv
+    - DOMAIN-SUFFIX,themoviedb.org
+    - DOMAIN-SUFFIX,tmdb.org
+    - DOMAIN-SUFFIX,fanart.tv
