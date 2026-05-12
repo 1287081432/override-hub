@@ -1,8 +1,9 @@
 # 添加直连规则示例
 payload:
-    - xn--wtq35pfyd55o.co
+    - DOMAIN-SUFFIX,便宜机场.co
     - DOMAIN-SUFFIX,themoviedb.org
     - DOMAIN-SUFFIX,tmdb.org
     - DOMAIN-SUFFIX,fanart.tv
     - DOMAIN-SUFFIX,wallhaven.cc
     - DOMAIN-SUFFIX,playground.ru
+    - DOMAIN-SUFFIX,u9a9.com
