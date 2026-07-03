@@ -1,6 +1,7 @@
 # 自用代理
 payload:
     - DOMAIN-SUFFIX,便宜机场.co
+    - DOMAIN-SUFFIX,xn--wtq35pfyd55o.co
     - DOMAIN-SUFFIX,themoviedb.org
     - DOMAIN-SUFFIX,tmdb.org
     - DOMAIN-SUFFIX,fanart.tv
